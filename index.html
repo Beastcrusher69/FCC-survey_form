@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>
+      surveyform 
+    </title> 
+    <link rel="stylesheet" href="styles.css"> 
+  </head>
+  <body>
+      <h1 id="title">Free Code Camp</h1>
+      <p id="description">survey form</p>
+      <form id="survey-form">
+        
+        <label  id="name-label">Name
+        <input type="text"  id="name" name="name" placeholder="Enter your name" required>
+        </label>
+        <label id="email-label">Email
+        <input type="email" id="email"  name="email" placeholder="Enter your email address" required>
+        </label>
+        <label id="number-label">Age
+        <input type="number" id="number" min="13" max="120" placeholder="Enter your age" >
+        </label>
+        <label>How is your experience with Free Code Camp so far?
+
+          <select id="dropdown">
+          <option>(choose an option)</option>
+          <option>great</option>
+          <option>good</option>
+          <option>cant say</option>
+          <option>bad</option>
+          
+          </select>
+        </label>  
+        
+        <label><input type="radio" name="refer" >definitely</label>
+        <label><input type="radio" name="refer">maybe</label>
+        <label><input type="radio" name="refer">never</label>
+
+        <label><input type="checkbox">Front-end Projects
+</label>
+        <label><input type="checkbox">Back-end Projects
+</label>
+        <label><input type="checkbox">Data Visualization
+</label>
+        <label><input type="checkbox">Challenges
+</label>
+        <label><input type="checkbox">Open Source Community
+</label>
+        <label><input type="checkbox">Gitter help rooms</label>
+        
+        <input type="submit">
+      </form>    
+  </body>
+</html>

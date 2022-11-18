@@ -2,23 +2,26 @@
 <html lang="en">
   <head>
     <title>
-      surveyform 
+      FCC-surveyform 
     </title> 
     <link rel="stylesheet" href="styles.css"> 
   </head>
   <body>
-      <h1 id="title">Free Code Camp</h1>
-      <p id="description">survey form</p>
+          
+      
+                  <div class="second">
+      <h1 id="title">freeCodeCamp Survey Form</h1>
+      <p  id="description">thanks for taking time to help us improve </p>
       <form id="survey-form">
         
         <label  id="name-label">Name
-        <input type="text"  id="name" name="name" placeholder="Enter your name" required>
+        <input class="full" type="text"  id="name" name="name" placeholder="Enter your name" required>
         </label>
         <label id="email-label">Email
-        <input type="email" id="email"  name="email" placeholder="Enter your email address" required>
+        <input class="full" type="email" id="email"  name="email" placeholder="Enter your email address" required>
         </label>
         <label id="number-label">Age
-        <input type="number" id="number" min="13" max="120" placeholder="Enter your age" >
+        <input class="full" type="number" id="number" min="13" max="120" placeholder="Enter your age" >
         </label>
         <label>How is your experience with Free Code Camp so far?
 
@@ -31,24 +34,32 @@
           
           </select>
         </label>  
-        
-        <label><input type="radio" name="refer" >definitely</label>
-        <label><input type="radio" name="refer">maybe</label>
-        <label><input type="radio" name="refer">never</label>
+        Would you recommend Free Code Camp to you friends?
+        <label><input type="radio" name="refer" value="definitely">definitely</label>
+        <label><input type="radio" name="refer" value="maybe">maybe</label>
+        <label><input type="radio" name="refer" value="never" label="never" >never</label>
 
-        <label><input type="checkbox">Front-end Projects
+What would you like to see improved?
+        <label><input name="improvement" value="frontendprojects" type="checkbox">Front-end Projects
 </label>
-        <label><input type="checkbox">Back-end Projects
+        <label><input name="improvement" value="backendprojects"  type="checkbox">Back-end Projects
 </label>
-        <label><input type="checkbox">Data Visualization
+        <label><input name="improvement" value="datavisualization" type="checkbox">Data Visualization
 </label>
-        <label><input type="checkbox">Challenges
+        <label><input name="improvement" value="challenges" type="checkbox">Challenges
 </label>
-        <label><input type="checkbox">Open Source Community
+        <label><input name="improvement" value="opensourcecommunity" type="checkbox">Open Source Community
 </label>
-        <label><input type="checkbox">Gitter help rooms</label>
+        <label><input name="improvement" value="gitterhelprooms" type="checkbox">Gitter help rooms</label>
+
+        Do you have any suggestions or complaints?
+<textarea class="full" ></textarea>
         
-        <input type="submit">
-      </form>    
+        <input id="submit" class="full" type="submit">
+      </form> 
+      </div>
+     
+
   </body>
 </html>
+

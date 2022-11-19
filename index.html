@@ -10,23 +10,23 @@
           
       
                   <div class="second">
-      <h1 id="title">freeCodeCamp Survey Form</h1>
+      <h1 id="title"><div class="fcc">freeCodeCamp</div> Survey Form</h1>
       <p  id="description">thanks for taking time to help us improve </p>
       <form id="survey-form">
         
         <label  id="name-label">Name
-        <input class="full" type="text"  id="name" name="name" placeholder="Enter your name" required>
+        <input class="full topthree" type="text"  id="name" name="name" placeholder="Enter your name" required>
         </label>
         <label id="email-label">Email
-        <input class="full" type="email" id="email"  name="email" placeholder="Enter your email address" required>
+        <input class="full topthree" type="email" id="email"  name="email" placeholder="Enter your email address" required>
         </label>
         <label id="number-label">Age
-        <input class="full" type="number" id="number" min="13" max="120" placeholder="Enter your age" >
+        <input class="full topthree" type="number" id="number" min="13" max="120" placeholder="Enter your age" >
         </label>
         <label>How is your experience with Free Code Camp so far?
 
           <select id="dropdown">
-          <option>(choose an option)</option>
+          <option selected disabled>(choose an option)</option>
           <option>great</option>
           <option>good</option>
           <option>cant say</option>
@@ -35,22 +35,22 @@
           </select>
         </label>  
         Would you recommend Free Code Camp to you friends?
-        <label><input type="radio" name="refer" value="definitely">definitely</label>
-        <label><input type="radio" name="refer" value="maybe">maybe</label>
-        <label><input type="radio" name="refer" value="never" label="never" >never</label>
+        <label><input id="topradio"class="radio" type="radio" name="refer" value="definitely">definitely</label>
+        <label><input class="radio" type="radio" name="refer" value="maybe">maybe</label>
+        <label><input class="radio" type="radio" name="refer" value="never" label="never" >never</label>
 
 What would you like to see improved?
-        <label><input name="improvement" value="frontendprojects" type="checkbox">Front-end Projects
+        <label><input  id="topcheckbox"class="checkbox"name="improvement" value="frontendprojects" type="checkbox">Front-end Projects
 </label>
-        <label><input name="improvement" value="backendprojects"  type="checkbox">Back-end Projects
+        <label><input class="checkbox"name="improvement" value="backendprojects"  type="checkbox">Back-end Projects
 </label>
-        <label><input name="improvement" value="datavisualization" type="checkbox">Data Visualization
+        <label><input class="checkbox"name="improvement" value="datavisualization" type="checkbox">Data Visualization
 </label>
-        <label><input name="improvement" value="challenges" type="checkbox">Challenges
+        <label><input class="checkbox"name="improvement" value="challenges" type="checkbox">Challenges
 </label>
-        <label><input name="improvement" value="opensourcecommunity" type="checkbox">Open Source Community
+        <label><input class="checkbox"name="improvement" value="opensourcecommunity" type="checkbox">Open Source Community
 </label>
-        <label><input name="improvement" value="gitterhelprooms" type="checkbox">Gitter help rooms</label>
+        <label><input class="checkbox"name="improvement" value="gitterhelprooms" type="checkbox">Gitter help rooms</label>
 
         Do you have any suggestions or complaints?
 <textarea class="full" ></textarea>

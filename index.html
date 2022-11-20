@@ -5,6 +5,7 @@
       FCC-surveyform 
     </title> 
     <link rel="stylesheet" href="styles.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
   </head>
   <body>
           
@@ -23,7 +24,7 @@
         <label id="number-label">Age
         <input class="full topthree" type="number" id="number" min="13" max="120" placeholder="Enter your age" >
         </label>
-        <label>How is your experience with Free Code Camp so far?
+        <label><p>How is your experience with Free Code Camp so far?</p>
 
           <select id="dropdown">
           <option selected disabled>(choose an option)</option>
@@ -34,12 +35,12 @@
           
           </select>
         </label>  
-        Would you recommend Free Code Camp to you friends?
+       <p> Would you recommend Free Code Camp to you friends?</p>
         <label><input id="topradio"class="radio" type="radio" name="refer" value="definitely">definitely</label>
         <label><input class="radio" type="radio" name="refer" value="maybe">maybe</label>
         <label><input class="radio" type="radio" name="refer" value="never" label="never" >never</label>
 
-What would you like to see improved?
+<p>What would you like to see improved?</p>
         <label><input  id="topcheckbox"class="checkbox"name="improvement" value="frontendprojects" type="checkbox">Front-end Projects
 </label>
         <label><input class="checkbox"name="improvement" value="backendprojects"  type="checkbox">Back-end Projects
@@ -52,8 +53,8 @@ What would you like to see improved?
 </label>
         <label><input class="checkbox"name="improvement" value="gitterhelprooms" type="checkbox">Gitter help rooms</label>
 
-        Do you have any suggestions or complaints?
-<textarea class="full" ></textarea>
+        <p>Do you have any suggestions or complaints?</p>
+<textarea class="full" placeholder="write here..." ></textarea>
         
         <input id="submit" class="full" type="submit">
       </form> 
